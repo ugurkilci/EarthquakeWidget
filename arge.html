@@ -1,0 +1,11 @@
+<script>
+var language = window.navigator.language || window.navigator.userLanguage;
+if (language.toLowerCase().startsWith("tr")) {
+  window.location.href = "https://tr.example.com";
+} else if (language.toLowerCase().startsWith("en")) {
+  window.location.href = "https://en.example.com";
+} else {
+  // varsayılan yönlendirme
+  window.location.href = "https://www.example.com";
+}
+</script>
