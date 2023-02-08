@@ -1,4 +1,4 @@
-document.write('<style>.earthquakewidget{background:red;color:#fff;padding:5px 20px;border-radius:5px;text-decoration:none;font-size:20px;position:fixed;bottom:20px;left:20px;z-index:9999999999999999999;font-family:arial}</style>');
+document.write('<style>.earthquakewidget{background:red;color:#fff;padding:5px 15px;border-radius:5px;text-decoration:none;font-size:20px;position:fixed;bottom:20px;left:20px;z-index:9999999999999999999;font-family:arial}</style>');
 
 var language = window.navigator.language || window.navigator.userLanguage;
 
