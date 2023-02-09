@@ -3,12 +3,12 @@ document.write('<style>.earthquakewidget{background:red;color:#fff;padding:5px 1
 var language = window.navigator.language || window.navigator.userLanguage;
 
 if (language.toLowerCase().startsWith("tr")) {
-  document.write('<a href="https://ahbap.org/bagisci-ol" class="earthquakewidget" target="_blank" rel="noopener noreferrer">Turkey Earthquake Donation</a>');
+  document.write('<a href="https://bagis.ahbap.org/bagis" class="earthquakewidget" target="_blank" rel="noopener noreferrer">Turkey Earthquake Donation</a>');
 } else if (language.toLowerCase().startsWith("en")) {
-  document.write('<a href="https://portfolio.nansen.ai/dashboard/APE-JBS8U7" class="earthquakewidget" target="_blank" rel="noopener noreferrer">Turkey Earthquake Donation</a>');
+  document.write('<a href="https://crypto.ahbap.org/en" class="earthquakewidget" target="_blank" rel="noopener noreferrer">Turkey Earthquake Donation</a>');
 } else {
   // Default location
-  document.write('<a href="https://portfolio.nansen.ai/dashboard/APE-JBS8U7" class="earthquakewidget" target="_blank" rel="noopener noreferrer">Turkey Earthquake Donation</a>');
+  document.write('<a href="https://bagis.ahbap.org/bagis" class="earthquakewidget" target="_blank" rel="noopener noreferrer">Turkey Earthquake Donation</a>');
 }
 
 require("https://www.googletagmanager.com/gtag/js?id=UA-96105625-28");
